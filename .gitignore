@@ -1,0 +1,24 @@
+# Ignore logs and temporary files
+*.log
+logs/
+error-logs.txt
+
+# Ignore system files (OS-specific)
+.DS_Store
+Thumbs.db
+
+# Ignore private credentials or environment variables
+secrets/
+*.env
+credentials.json
+azure-keys.txt
+
+# Ignore backup files
+*.bak
+*.old
+backup/
+
+# Ignore large binary files (ISO, compressed archives)
+*.iso
+*.zip
+*.tar.gz
